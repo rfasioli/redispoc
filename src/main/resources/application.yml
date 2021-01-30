@@ -1,0 +1,12 @@
+---
+spring:
+  profiles: local
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    port: 6379
+
+redis:
+  hostname: localhost
+  port: 6379
